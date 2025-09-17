@@ -108,7 +108,7 @@ class Player {
 						break;
 
 					case 3:
-						std::cout << "Cards:" std::endl;
+						std::cout << "Cards:" << std::endl;
 						this->display_cards();
 						continue;
 
