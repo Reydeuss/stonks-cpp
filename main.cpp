@@ -163,7 +163,7 @@ class Game {
 		}
 
 		void loop() {
-			for (auto player : this->players) {
+			for (auto player : &this->players) {
 				clear_screen();
 				player.show_menu(this->chart);
 			}
