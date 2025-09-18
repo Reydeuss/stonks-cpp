@@ -4,6 +4,7 @@
 #include <string>
 #include <cstdlib>
 
+#include "Card.h"
 #include "Stock.h"
 
 #define STOCK_NUM 4
@@ -12,18 +13,6 @@
 void clear_screen() {
 	std::system("clear");
 }
-
-class Card {
-	public:
-		int up;
-		int down;
-
-		Card () {
-			int factor = std::rand() % 10;
-			this->up = factor * 1000;
-			this->down = factor * 1000;
-		}
-};
 
 class Player {
 	public:
