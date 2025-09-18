@@ -5,22 +5,10 @@
 #include <string>
 #include <cstdlib>
 
+#include "Stock.h"
+
 #define STOCK_NUM 4
 #define RAND_SEED 42
-
-struct Stock {
-	std::string code;
-	int price;
-};
-
-std::vector<Stock> get_default_stocks() {
-	return {
-		{"BACA", 0},
-		{"PANIKBANG", 0},
-		{"DANAMAN", 0},
-		{"BIN", 0}
-	};
-}
 
 void clear_screen() {
 	std::system("clear");
@@ -163,7 +151,7 @@ class Game {
 		}
 
 		void loop() {
-			for (auto player : &this->players) {
+			for (auto& player : this->players) {
 				clear_screen();
 				player.show_menu(this->chart);
 			}
