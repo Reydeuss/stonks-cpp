@@ -6,6 +6,7 @@
 
 #include "Card.h"
 #include "Stock.h"
+#include "Player.h"
 
 #define STOCK_NUM 4
 #define RAND_SEED 42
