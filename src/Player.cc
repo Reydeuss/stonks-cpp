@@ -85,7 +85,7 @@ void Player::display_cards() {
     for (const auto& card : this->cards) {
         PriceModifierType modifiers = card.get_price_modifiers();
         const std::string card_str = std::format(
-            "[Up: {} | Down: {}]", modifiers.first, modifiers.second
+            "[Up: {} | Down: {}]", modifiers.up, modifiers.down
         );
 
         std::cout << card_str << std::endl;

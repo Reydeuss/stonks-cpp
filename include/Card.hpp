@@ -1,8 +1,12 @@
 #pragma once
 
-#include <utility>
+struct PriceModifierType {
+  int up;
+  int down;
 
-using PriceModifierType = std::pair<int, int>;
+  PriceModifierType(int u, int d)
+    : up(u), down(d) {};
+};
 
 class Card {
 	private:

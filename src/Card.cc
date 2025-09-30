@@ -1,5 +1,4 @@
 #include <cstdlib>
-#include <utility>
 
 #include "Card.hpp"
 
@@ -10,5 +9,7 @@ Card::Card() {
 }
 
 PriceModifierType Card::get_price_modifiers() const {
-  return std::pair(this->up, this->down);
+  return PriceModifierType {
+    this->up, this->down
+  };
 }
