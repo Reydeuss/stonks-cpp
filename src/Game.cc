@@ -24,7 +24,7 @@ void Game::init() {
 
   for (int i = 0; i < this->player_num; i++) {
     std::cout << "Enter name of Player " << i+1 << ": ";
-    std::cin >> ws;
+    std::cin >> std::ws;
     std::cin >> tmp_name;
     std::cin.ignore();
 
