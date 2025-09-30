@@ -10,7 +10,7 @@ class Card {
     int down;
 
 	public:
-    PriceModifierType get_price_modifiers();
+    PriceModifierType get_price_modifiers() const;
 
 		Card ();
 };

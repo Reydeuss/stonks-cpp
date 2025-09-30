@@ -83,8 +83,9 @@ void Player::show_menu(const std::vector<Stock>& chart) {
 
 void Player::display_cards() {
     for (const auto& card : this->cards) {
+        PriceModifierType modifiers = card.get_price_modifiers();
         const std::string card_str = std::format(
-            "[Up: {} | Down: {}]", card.up, card.down
+            "[Up: {} | Down: {}]", modifiers.first, modifiers.second
         );
 
         std::cout << card_str << std::endl;
