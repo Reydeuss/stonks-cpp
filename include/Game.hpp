@@ -6,14 +6,15 @@
 #include "Player.hpp"
 
 class Game {
-	public:
-	int player_num;
-	std::vector<Stock> chart;
-	std::vector<Player> players;
+  private:
+    int player_num;
+	  std::vector<Stock> chart;
+	  std::vector<Player> players;
 
-	Game ();
+  public:
+    Game ();
 
-	void init();
-	void loop();
-	void run();
+    void init();
+    void loop();
+    void run();
 };
