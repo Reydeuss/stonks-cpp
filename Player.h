@@ -14,7 +14,7 @@ class Player {
 		std::vector<Card> cards;
 		std::string name;
 
-        Player();
+    Player();
 		Player(int cash, std::string name);
 		Player(std::string name);
 
