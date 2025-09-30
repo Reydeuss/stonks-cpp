@@ -3,10 +3,10 @@
 #include <string>
 #include <cstdlib>
 
-#include "Card.h"
-#include "Game.h"
-#include "Stock.h"
-#include "Player.h"
+#include "Card.hpp"
+#include "Game.hpp"
+#include "Stock.hpp"
+#include "Player.hpp"
 
 #define STOCK_NUM 4
 #define RAND_SEED 42

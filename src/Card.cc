@@ -1,6 +1,6 @@
 #include <cstdlib>
 
-#include "Card.h"
+#include "Card.hpp"
 
 Card::Card() {
     int factor = std::rand() % 10;

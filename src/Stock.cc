@@ -1,7 +1,7 @@
 #include <string>
 #include <vector>
 
-#include "Stock.h"
+#include "Stock.hpp"
 
 std::vector<Stock> get_default_stocks() {
 	return {

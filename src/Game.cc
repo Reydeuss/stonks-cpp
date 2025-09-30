@@ -1,9 +1,9 @@
 #include <iostream>
 #include <vector>
 
-#include "Game.h"
-#include "Stock.h"
-#include "Player.h"
+#include "Game.hpp"
+#include "Stock.hpp"
+#include "Player.hpp"
 
 void clear_screen() {
 	std::system("clear");

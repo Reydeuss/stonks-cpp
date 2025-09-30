@@ -3,9 +3,9 @@
 #include <string>
 #include <format>
 
-#include "Stock.h"
-#include "Player.h"
-#include "Card.h"
+#include "Stock.hpp"
+#include "Player.hpp"
+#include "Card.hpp"
 
 Player::Player() {
     const auto default_cash = 50000;
