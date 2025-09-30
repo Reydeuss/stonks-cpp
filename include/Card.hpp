@@ -2,7 +2,7 @@
 
 #include <utility>
 
-using PriceType = std::pair<int, int>;
+using PriceModifierType = std::pair<int, int>;
 
 class Card {
 	private:
@@ -10,7 +10,7 @@ class Card {
     int down;
 
 	public:
-    PriceType get_price_modifiers();
+    PriceModifierType get_price_modifiers();
 
 		Card ();
 };
