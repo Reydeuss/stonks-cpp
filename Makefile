@@ -1,9 +1,9 @@
-CXX = clang++
-TARGET = build/main
-CXXFLAGS = -Wall -std=c++20
+COMPILER=clang++
+TARGET=build/main
+FLAGS=-Wall -std=c++20
 
 all:
-	$(CXX) $(CXXFLAGS) -o $(TARGET) ./*.cc
+	$(COMPILER) $(FLAGS) -o $(TARGET) ./*.cc
 
 run:
 	./$(TARGET)
