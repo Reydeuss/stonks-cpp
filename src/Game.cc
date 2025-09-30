@@ -19,12 +19,12 @@ void Game::init() {
   std::cout << "Welcome to STONKS!" << std::endl;
   std::cout << "How many players are playing? " << std::endl;
   std::cin >> this->player_num;
-  std::cin.ignore();
 
   this->players.resize(this->player_num);
 
   for (int i = 0; i < this->player_num; i++) {
     std::cout << "Enter name of Player " << i+1 << ": ";
+    std::cin >> ws;
     std::cin >> tmp_name;
     std::cin.ignore();
 
