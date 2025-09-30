@@ -7,13 +7,13 @@
 
 class Game {
 	public:
-		int player_num;
-		std::vector<Stock> chart;
-		std::vector<Player> players;
+	int player_num;
+	std::vector<Stock> chart;
+	std::vector<Player> players;
 
-		Game ();
+	Game ();
 
-		void init();
-		void loop();
-		void run();
+	void init();
+	void loop();
+	void run();
 };

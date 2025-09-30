@@ -6,7 +6,7 @@
 #include "Player.hpp"
 
 void clear_screen() {
-	std::system("clear");
+  std::system("clear");
 }
 
 Game::Game () {
