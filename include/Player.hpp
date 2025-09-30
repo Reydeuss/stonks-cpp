@@ -4,8 +4,8 @@
 #include <string>
 #include <format>
 
-#include "Stock.h"
-#include "Card.h"
+#include "Stock.hpp"
+#include "Card.hpp"
 
 class Player {
 	public:

@@ -2,8 +2,8 @@
 
 #include <vector>
 
-#include "Stock.h"
-#include "Player.h"
+#include "Stock.hpp"
+#include "Player.hpp"
 
 class Game {
 	public:
